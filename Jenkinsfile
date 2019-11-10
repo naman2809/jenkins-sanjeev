@@ -1,6 +1,6 @@
 node{
 stage ('scm checkout'){
-git 'github.com/naman2809/jenkins-sanjeev'
+git 'https://github.com/naman2809/jenkins-sanjeev.git'
 }
 stage ('compile-package'){
   //Git maven home path
